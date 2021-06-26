@@ -44,14 +44,26 @@ const data = {
 // );
 
 // Update Post
-http.put(
+// http.put(
+//   "https://jsonplaceholder.typicode.com/posts/1",
+//   data,
+//   function (err, post) {
+//     if (err) {
+//       console.log(err);
+//     } else {
+//       console.log(post);
+//     }
+//   }
+// );
+
+// Get Single Post
+http.delete(
   "https://jsonplaceholder.typicode.com/posts/1",
-  data,
-  function (err, post) {
+  function (err, response) {
     if (err) {
       console.log(err);
     } else {
-      console.log(post);
+      console.log(response);
     }
   }
 );
