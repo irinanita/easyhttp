@@ -44,7 +44,7 @@ class EasyHTTP {
   delete(url) {
     return new Promise((resolve, reject) => {
       fetch(url, {
-        method: "PUT",
+        method: "DELETE",
         headers: { "Content-type": "application/json" },
       
       })
