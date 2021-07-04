@@ -1,3 +1,5 @@
+/* Uncomment if testing easyhttp.js */
+
 // const http = new easyHTTP();
 
 // Get Posts
@@ -55,6 +57,10 @@
 //     }
 //   }
 // );
+
+
+/* Uncomment  if testing easyhttpES6.js
+and easyhttpES7.js */
 
 // Get Single Post
 // http.delete(
